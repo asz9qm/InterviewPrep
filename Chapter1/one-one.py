@@ -10,4 +10,15 @@ def check(s):
             unique[ord(string)]= True
     return True            
 
+# check if cannot use additional space 
+
+def check_nospace(s):
+    sorted_list = sorted(s)
+    for x in range(0, len(sorted_list)-1):
+        if (sorted_list[x] == sorted_list[x+1]):
+            return False
+    return True
+
 print(check("helo"))
+print(check_nospace("helo"))
+print(check_nospace("ss"))
