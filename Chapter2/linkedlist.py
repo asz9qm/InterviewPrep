@@ -18,18 +18,26 @@ class linkedlist:
     def __init__(self):
         self.head = node()
         self.tail = node()
+        self.head.next = self.tail
         self.count = 0
+    # add only inserts at tail
     def add(self, value):
         a = node(value)
+        pointer = self.head
         if (self.count == 0):
             self.head.next = a
-            self.tail = a
+            a.next = self.tail
         else:
-            self.tail.next = a
-            self.tail = a
+            while (pointer.next != self.tail):
+                pointer = pointer.next
+            pointer.next = a
+            a.next = self.tail
         self.count += 1
+    def insert(self, string):
+        for i in range(0, len(string)):
+            self.add(string[i])
     def print(self):
         node = self.head
-        while(node.next != None):
+        while(node.next.value != None):
             node = node.next
             print(node)
