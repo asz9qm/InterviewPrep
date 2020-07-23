@@ -2,10 +2,6 @@ import java.util.*;
 
 public class TwoOne
 {
-    public static void main(String[] args)
-    {
-        MyLinkedList a = new MyLinkedList();
-    }
 
     void remove_duplicates(MyLinkedList n)
     {
