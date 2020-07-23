@@ -13,6 +13,7 @@ def remove_deplicates(linked_list):
         else:
             node2.next = node.next
             node = node.next
+            linked_list.count -= 1
         
 
 # if it has to be in place removal
@@ -30,4 +31,5 @@ def remove_deplicates_in_place(linked_list):
             else:
                 node2 = node2.next
                 node3 = node3.next
+                linked_list.count -= 1
         node = node.next
