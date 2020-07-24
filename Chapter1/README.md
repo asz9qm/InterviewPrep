@@ -6,4 +6,4 @@ Question 5: Check is a string is one edit away\
 Question 6: String compression\
 Question 7: Rotate Matrix\
 Question 8: Zero Matrix\
-Question 9: String Rotation\
+Question 9: String Rotation
