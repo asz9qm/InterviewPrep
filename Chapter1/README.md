@@ -1,4 +1,4 @@
-# Directory
+# Directory Arrays
 Question 1: Does a string have all unique characters\
 Question 2: Check Permutation of two strings\
 Question 3: Replace all spaces with %20\
