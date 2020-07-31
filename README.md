@@ -1,6 +1,5 @@
-# InterviewPrep
-This is just the code I created to solve problems in the book Cracking the Coding Interview  
-It is sorted by chapter and currently is done in both java and python  
-Chapter 1: Arrays  
-Chapter 2: Linked Lists  
-Chapter 3: Stacks and Queues
+# Interview Prep  
+This is a project with much of code that I wrote to prepare for interviews  
+There are multiple folders each with their own content  
+LeetCode contains leetcode problems that I solved  
+CrackingTheCodingInterview contains problems from that book  
