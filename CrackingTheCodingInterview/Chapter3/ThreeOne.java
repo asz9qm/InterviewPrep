@@ -21,11 +21,11 @@ public class ThreeOne
     {
         this.size *= 2;
         int[] temp = new int[this.size*this.numOfStacks];
-        for (int i = 0; i < self.numOfStacks; i++)
+        for (int i = 0; i < this.numOfStacks; i++)
         {
-            for (int k = 0; k < self.numOfStacks; k++)
+            for (int k = 0; k < this.numOfStacks; k++)
             {
-                temp[i*this.size+k] = this.values[i*self.size /2+k];
+                temp[i*this.size+k] = this.values[i*this.size /2+k];
             }
         }
         this.values = temp;
@@ -46,22 +46,22 @@ public class ThreeOne
     {
         if (this.lengths[array-1] == 0)
         {
-            return null;
+            throw new IllegalStateException("Empty");
         }
         else
         {
             int temp = this.values[(array-1)*this.size+this.lengths[array-1]-1];
             this.values[(array-1)*this.size+this.lengths[array-1]-1] = 0;
             this.lengths[array-1]--;
+            return temp;
         }
-        return array;
     }
 
     public int peek(int array)
     {
         if (this.lengths[array-1] == 0)
         {
-            return null;
+            throw new IllegalStateException("Empty");
         }
         else
         {
@@ -69,9 +69,9 @@ public class ThreeOne
         }
     }
 
-    public int empty(int array)
+    public boolean empty(int array)
     {
-        return (self.lengths[array-1] == 0);
+        return this.lengths[array-1] == 0;
     }
 
 
