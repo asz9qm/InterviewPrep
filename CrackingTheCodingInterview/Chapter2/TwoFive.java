@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // If numbers were stored as linked lists and each node was a digit, how to add two linked list together if ones digit is first
 // and largest digit is last
 public class TwoFive {

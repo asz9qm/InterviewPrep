@@ -1,3 +1,4 @@
+package CrackingTheCodingInterview.Chapter1;
 // one edit away
 public class OneFive 
 {

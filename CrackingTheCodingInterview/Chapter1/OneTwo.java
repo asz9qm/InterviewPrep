@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 public class OneTwo {
     // this will check if the second string is a permutation of the first string
 

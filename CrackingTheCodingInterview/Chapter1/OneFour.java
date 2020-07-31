@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 public class OneFour {
 
     public static void main(String[] args){

@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter3;
+
 // uses a single array to create 3 fixed sized stacks
 public class ThreeOne
 {

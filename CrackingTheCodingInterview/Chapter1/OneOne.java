@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 import java.util.Arrays;
 
 public class OneOne {

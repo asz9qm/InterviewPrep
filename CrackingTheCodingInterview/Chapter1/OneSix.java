@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 // String compression
 public class OneSix {
 

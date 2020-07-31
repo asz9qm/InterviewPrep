@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // partion a linked list using a value, all elements less than will be on the left while elements equal to or larger will be on the right
 // the element just needs to be on the right side
 import java.util.*;

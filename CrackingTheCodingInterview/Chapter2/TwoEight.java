@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // finds loop in linked list
 public class TwoEight 
 {

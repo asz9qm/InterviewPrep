@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 import java.util.*;
 
 public class TwoOne

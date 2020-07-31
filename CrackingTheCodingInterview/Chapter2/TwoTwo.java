@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // returns the kth to last element
 public class TwoTwo {
 

@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 public class LinkedListNode 
 {
 

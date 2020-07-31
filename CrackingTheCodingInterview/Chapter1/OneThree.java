@@ -1,4 +1,6 @@
-public class OneThree{
+package CrackingTheCodingInterview.Chapter1;
+
+public class OneThree {
 
     public static void main(String[] args){
 

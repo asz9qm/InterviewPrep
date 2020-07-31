@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // checks if there is an intersection within a linked list
 // assumes that the linked lists don't diverge after the intersection
 public class TwoSeven {

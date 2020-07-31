@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 // if a there is a 0 in a row or col, changes that whole row/col to 0 in place
 public class OneEight 
 {

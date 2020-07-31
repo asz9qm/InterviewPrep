@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // deletes a node given only the data from that node in a singly linked list
 public class TwoThree {
 

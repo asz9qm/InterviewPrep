@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter1;
+
 // rotate a matrix 90 degrees clockwise in place
 public class OneSeven 
 {

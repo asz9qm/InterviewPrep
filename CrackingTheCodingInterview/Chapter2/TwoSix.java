@@ -1,3 +1,5 @@
+package CrackingTheCodingInterview.Chapter2;
+
 // checks if a linked list is a palindrome
 public class TwoSix {
 
