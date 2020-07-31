@@ -47,3 +47,6 @@ MANIFEST
 *.zip
 *.tar.gz
 *.rar
+
+# Windows
+Thumbs.db
