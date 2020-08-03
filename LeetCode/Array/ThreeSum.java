@@ -4,8 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import javax.lang.model.util.ElementScanner14;
-
 public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) 
