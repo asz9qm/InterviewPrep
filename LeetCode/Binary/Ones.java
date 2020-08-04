@@ -1,3 +1,4 @@
+// find number of ones in a binary number
 package LeetCode.Binary;
 
 public class Ones
