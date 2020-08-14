@@ -3,23 +3,22 @@
 // Your function should return true if any value appears at least twice in the array, and it should return false if every element is distinct.
 package LeetCode.Array;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.HashSet;
 
 public class ContainsDuplicate {
 
     public boolean containsDuplicate(int[] nums) 
     {
-        Map<Integer, Integer> map = new HashMap<>();
+        HashSet<Integer> map = new HashSet<>();
         for(int i = 0; i < nums.length; i++)
         {
-            if(map.containsKey(nums[i]))
+            if(map.contains(nums[i]))
             {
                 return true;
             }
             else
             {
-                map.put(nums[i], 0);
+                map.add(nums[i]);
             }
         }
         return false;
