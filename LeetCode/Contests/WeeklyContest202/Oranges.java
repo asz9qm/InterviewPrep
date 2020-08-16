@@ -24,17 +24,20 @@ public class Oranges
         if(n % 2 == 0) 
         {
             a = Math.min(a, 1 + helper(n / 2, map));
-        } else 
+        } 
+        else 
         {
             a = Math.min(a, 1 + helper(n - 1, map));
         }
         if(n % 3 == 0) 
         {
             a = Math.min(a, 1 + helper(n / 3, map));
-        } else if(n % 3 == 1) 
+        } 
+        else if(n % 3 == 1) 
         {
             a = Math.min(a, 1 + helper(n - 1, map));
-        } else 
+        } 
+        else 
         {
             a = Math.min(a, 2 + helper(n - 2, map));
         }
