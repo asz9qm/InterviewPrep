@@ -1,3 +1,5 @@
+package LeetCode.String;
+
 public class UniqueCharsBothSides 
 {
     /**
@@ -32,11 +34,12 @@ public class UniqueCharsBothSides
             }
 
         }
+        return count;
         
 
     }
 
-    private bool compare(int[] l, int[] r)
+    private boolean compare(int[] l, int[] r)
     {
         for(int i = 0; i < l.length; i++)
         {
