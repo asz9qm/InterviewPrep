@@ -1,3 +1,7 @@
+package LeetCode.Array;
+
+import java.util.Arrays;
+
 // https://leetcode.com/discuss/interview-question/553399/
 public class MinAmplitude 
 {
